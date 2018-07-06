@@ -22,6 +22,7 @@ public class WebService {
 		
 		requestspec.contentType(ContentType.JSON);
 		Response responjson=requestspec.get(Uri);
+		System.out.println(responjson);
 	}
 	
 	public static void  Put(String Uri,String Json)
