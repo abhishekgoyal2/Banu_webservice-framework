@@ -2,7 +2,8 @@ package com.abhi.utils;
 
 public enum EndpointUrl {
 	
-	Add_circuuit("year/circuits");
+	
+	Add_circuuit("/2017/circuits");
 
 	String Resourcepath;
 	
