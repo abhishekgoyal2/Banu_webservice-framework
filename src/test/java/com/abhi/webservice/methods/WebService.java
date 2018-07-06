@@ -39,4 +39,6 @@ public class WebService {
 		requestspec.contentType(ContentType.JSON);
 		Response responjson=requestspec.delete(Uri);
 	}
+	
+	
 }
