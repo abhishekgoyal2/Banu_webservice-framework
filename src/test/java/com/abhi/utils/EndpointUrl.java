@@ -28,7 +28,7 @@ public enum EndpointUrl {
 		
 		System.out.println("making full country");
 		String url=Url.fixurl+EndpointUrl.Add_circuuit.getresourcepath();
-		
+		System.out.println(Url.fixurl);
 		System.out.println(url);
 
 	}

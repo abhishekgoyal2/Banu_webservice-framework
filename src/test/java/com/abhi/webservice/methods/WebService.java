@@ -16,13 +16,14 @@ public class WebService {
 		Response responjson=requestspec.post(Uri);
 	}
 	
-	public static void  Get(String Uri)
+	public static Response  Get(String Uri)
 	{
 		RequestSpecification requestspec=RestAssured.given() ;
 		
 		requestspec.contentType(ContentType.JSON);
 		Response responjson=requestspec.get(Uri);
 		System.out.println(responjson);
+		return responjson;
 	}
 	
 	public static void  Put(String Uri,String Json)
